@@ -15,7 +15,6 @@ public class Main{
            }
               if(timestamp>0)
               mintime=Math.min(mintime,timestamp);
-              System.out.println(timestamp);
               timestamp=0;
               return;
               
