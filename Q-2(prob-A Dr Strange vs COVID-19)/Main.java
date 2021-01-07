@@ -45,7 +45,7 @@ public class Main{
          int NUM_UNIVERSE=s.nextInt();
          int NUM_PORTAL=s.nextInt();
          int edges[][]=new int[NUM_UNIVERSE][NUM_UNIVERSE];
-         int demonstimestamps[][]=new int[4][];//jagged array
+         int demonstimestamps[][]=new int[NUM_UNIVERSE][];//jagged array
          int NUM_DEMONS;
          
          for(int i=0;i<NUM_PORTAL;i++){
